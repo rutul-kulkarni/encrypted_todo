@@ -1,0 +1,54 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.boxContainer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.textAreaContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.textArea {
+  resize: none;
+  background-color: aliceblue;
+  color: black;
+}
+
+.button {
+  min-height: 40px;
+  min-width: 100px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  min-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  color: black;
+  min-width: 500px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 2px solid black;
+  cursor: pointer;
+}
